@@ -1,76 +1,88 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
-import Head from "next/head";
-import { NextSeo } from "next-seo";
-// import { DefaultSeo } from 'next-seo';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
 export const metadata = {
-  title: "МЕДИРЕН",
-  description: "Mediren - МЕДИРЕН",
-  url: "https://mediren.netlify.app",
-  image: "https://mediren.netlify.app/mediren-logo.svg",
-  content: "МЕДИРЕН",
+  metadataBase: new URL("https://mediren.uz"),
+  title: "МЕДИРЕН® — Растительный урологический препарат | Таблетки №60",
+  description:
+    "МЕДИРЕН® — комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное действие. Производитель: Spring Pharmaceutic.",
+  keywords: [
+    "МЕДИРЕН",
+    "медирен таблетки",
+    "урологический препарат",
+    "лечение почек",
+    "мочевыводящие пути",
+    "цистит лечение",
+    "пиелонефрит",
+    "растительный препарат",
+    "Spring Pharmaceutic",
+    "фитопрепарат",
+    "мочекаменная болезнь",
+    "mediren",
+    "buyrak dorisi",
+    "siydik yo'llari",
+    "o'simlik preparati",
+  ],
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  verification: {
+    google: "EeNrX_Vhd4bMEJnslGv6D89shImpFKT1eTXHeeqUF8I",
+  },
+  alternates: {
+    canonical: "https://mediren.uz",
+  },
+  openGraph: {
+    type: "website",
+    url: "https://mediren.uz",
+    title: "МЕДИРЕН® — Растительный урологический препарат",
+    description:
+      "Комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное действие.",
+    siteName: "МЕДИРЕН",
+    images: [
+      {
+        url: "/mediren.webp",
+        width: 900,
+        height: 800,
+        alt: "МЕДИРЕН® таблетки",
+      },
+      {
+        url: "/mediren-logo.svg",
+        width: 800,
+        height: 600,
+        alt: "МЕДИРЕН логотип",
+      },
+    ],
+    locale: "ru_RU",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "МЕДИРЕН® — Растительный урологический препарат",
+    description:
+      "Комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей.",
+    images: ["/mediren.webp"],
+  },
+  other: {
+    "telegram:channel": "@SpringPharmaceutic",
+    "instagram:account": "@springpharmaceutic",
+    "article:publisher": "https://www.facebook.com/spring.pharm.3/",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <head>
-        <meta
-          name="google-site-verification"
-          content="EeNrX_Vhd4bMEJnslGv6D89shImpFKT1eTXHeeqUF8I"
-        />
-        <link rel="canonical" href="https://www.mediren.uz/" />
-        <meta property="og:url" content="https://mediren.uz/" />
-        <meta property="og:title" content="МЕДИРЕН" />
-        <meta property="og:description" content="МЕДИРЕН" />
-        <meta
-          property="og:image"
-          content="https://mediren.netlify.app/mediren-logo.svg"
-        />
-        <meta property="og:image:width" content="800" />
-        <meta property="og:image:height" content="600" />
-        <meta
-          property="og:image"
-          content="https://mediren.netlify.app/mediren.png"
-        />
-        <meta property="og:image:width" content="900" />
-        <meta property="og:image:height" content="800" />
-        <meta
-          property="og:image"
-          content="https://mediren.netlify.app/mediren.png"
-        />
-        <meta
-          property="og:image"
-          content="https://mediren.netlify.app/mediren.png"
-        />
-        <meta property="og:site_name" content="МЕДИРЕН" />
-        {/* Telegram */}
-        <meta property="telegram:channel" content="@SpringPharmaceutic" />
-        {/*Instagram*/}
-        <meta property="instagram:account" content="@springpharmaceutic/" />
-        {/*Facebook*/}
-        <meta
-          property="article:publisher"
-          content="https://www.facebook.com/spring.pharm.3/"
-        />
-        {/*Email*/}
-        <meta property="email" content="spring_pharmaceutic@gmail.com" />
-      </head>
-      <body className={inter.className}>
-        {/*<DefaultSeo*/}
-        {/*    title="Invirep"*/}
-        {/*    description="Invirep"*/}
-        {/*    openGraph={{*/}
-        {/*        type: 'website',*/}
-        {/*        url: 'https://invirep.vercel.app',*/}
-        {/*        site_name: 'Invirep',*/}
-        {/*    }}*/}
-        {/*/>*/}
-        {children}
-      </body>
+    <html lang="ru">
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }

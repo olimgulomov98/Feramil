@@ -1,8 +1,43 @@
-import { NextSeo } from "next-seo";
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Product",
+  name: "МЕДИРЕН® таблетки №60",
+  description:
+    "Комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное, противомикробное действие.",
+  image: "https://mediren.uz/mediren.webp",
+  brand: {
+    "@type": "Brand",
+    name: "Spring Pharmaceutic",
+  },
+  manufacturer: {
+    "@type": "Organization",
+    name: 'ООО "SPRING PHARMACEUTIC"',
+    address: {
+      "@type": "PostalAddress",
+      addressCountry: "UZ",
+      addressRegion: "Наманганская область",
+      addressLocality: "Касансайский район",
+      streetAddress: "Кукимбой, Навбахор МСГ, улица Булак, дом 129",
+    },
+    telephone: "+998996942363",
+    email: "spring_pharmaceutic@gmail.com",
+    sameAs: [
+      "https://www.instagram.com/springpharmaceutic/",
+      "https://www.facebook.com/spring.pharm.3/",
+      "https://t.me/SpringPharmaceutic",
+    ],
+  },
+  category: "Фитопрепараты, урология",
+  url: "https://mediren.uz",
+};
 
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="xl:max-w-[1110px] my-0 mx-auto w-[90%]">
         <div className="h-[80px] flex items-center justify-between">
           <a href="#">
@@ -36,7 +71,7 @@ export default function Home() {
               height={600}
               width={600}
               className="hidden md:block"
-              src="/mediren.png"
+              src="/mediren.webp"
               alt="инвиреп"
               loading={"lazy"}
             />
@@ -52,7 +87,7 @@ export default function Home() {
               height={300}
               width={300}
               className="block md:hidden"
-              src="/mediren.png"
+              src="/mediren.webp"
               alt="Invirep"
               loading={"lazy"}
             />
