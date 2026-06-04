@@ -4,13 +4,13 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
 export const metadata = {
-  metadataBase: new URL("https://mediren.uz"),
-  title: "МЕДИРЕН® — Растительный урологический препарат | Таблетки №60",
+  metadataBase: new URL("https://levostan.uz"),
+  title: "ЛЕВОСТАН — Левофлоксацин - 500 мг/100 мл",
   description:
-    "МЕДИРЕН® — комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное действие. Производитель: Spring Pharmaceutic.",
+    "ЛЕВОСТАН — комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное действие. Производитель: Spring Pharmaceutic.",
   keywords: [
-    "МЕДИРЕН",
-    "медирен таблетки",
+    "levostan",
+    "levostan таблетки",
     "урологический препарат",
     "лечение почек",
     "мочевыводящие пути",
@@ -20,7 +20,7 @@ export const metadata = {
     "Spring Pharmaceutic",
     "фитопрепарат",
     "мочекаменная болезнь",
-    "mediren",
+    "levostan",
     "buyrak dorisi",
     "siydik yo'llari",
     "o'simlik preparati",
@@ -40,27 +40,27 @@ export const metadata = {
     google: "EeNrX_Vhd4bMEJnslGv6D89shImpFKT1eTXHeeqUF8I",
   },
   alternates: {
-    canonical: "https://mediren.uz",
+    canonical: "https://levostan.uz",
   },
   openGraph: {
     type: "website",
-    url: "https://mediren.uz",
-    title: "МЕДИРЕН® — Растительный урологический препарат",
+    url: "https://levostan.uz",
+    title: "ЛЕВОСТАН — Растительный урологический препарат",
     description:
       "Комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное действие.",
-    siteName: "МЕДИРЕН",
+    siteName: "ЛЕВОСТАН",
     images: [
       {
-        url: "/mediren.webp",
+        url: "/levostan.webp",
         width: 900,
         height: 800,
-        alt: "МЕДИРЕН® таблетки",
+        alt: "ЛЕВОСТАН",
       },
       {
-        url: "/mediren-logo.svg",
+        url: "/levostan-logo.svg",
         width: 800,
         height: 600,
-        alt: "МЕДИРЕН логотип",
+        alt: "ЛЕВОСТАН логотип",
       },
     ],
     locale: "ru_RU",
@@ -70,7 +70,7 @@ export const metadata = {
     title: "МЕДИРЕН® — Растительный урологический препарат",
     description:
       "Комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей.",
-    images: ["/mediren.webp"],
+    images: ["/levostan.webp"],
   },
   other: {
     "telegram:channel": "@SpringPharmaceutic",
