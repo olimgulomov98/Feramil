@@ -4,13 +4,13 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
 export const metadata = {
-  metadataBase: new URL("https://vasorin.uz"),
-  title: "ВАСОРИН - Торговое название препарата",
+  metadataBase: new URL("https://feramil.uz"),
+  title: "ФЕРАМИЛ - Торговое название препарата",
   description:
-    "ВАСОРИН — комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное действие. Производитель: Spring Pharmaceutic.",
+    "ФЕРАМИЛ — комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное действие. Производитель: Spring Pharmaceutic.",
   keywords: [
-    "vasorin",
-    "vasorin таблетки",
+    "feramil",
+    "feramil таблетки",
     "урологический препарат",
     "лечение почек",
     "мочевыводящие пути",
@@ -20,7 +20,7 @@ export const metadata = {
     "Spring Pharmaceutic",
     "фитопрепарат",
     "мочекаменная болезнь",
-    "vasorin",
+    "feramil",
     "buyrak dorisi",
     "siydik yo'llari",
     "o'simlik preparati",
@@ -40,37 +40,37 @@ export const metadata = {
     google: "EeNrX_Vhd4bMEJnslGv6D89shImpFKT1eTXHeeqUF8I",
   },
   alternates: {
-    canonical: "https://vasorin.uz",
+    canonical: "https://feramil.uz",
   },
   openGraph: {
     type: "website",
-    url: "https://vasorin.uz",
-    title: "ВАСОРИН - Торговое название препарата",
+    url: "https://feramil.uz",
+    title: "ФЕРАМИЛ - Торговое название препарата",
     description:
       "Комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное действие.",
-    siteName: "ВАСОРИН",
+    siteName: "ФЕРАМИЛ",
     images: [
       {
-        url: "/vasorin.webp",
+        url: "/feramil.webp",
         width: 900,
         height: 800,
-        alt: "ВАСОРИН",
+        alt: "ФЕРАМИЛ",
       },
       {
-        url: "/vasorin-logo.svg",
+        url: "/feramil-logo.svg",
         width: 800,
         height: 600,
-        alt: "ВАСОРИН логотип",
+        alt: "ФЕРАМИЛ логотип",
       },
     ],
     locale: "ru_RU",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ВАСОРИН - Торговое название препарата",
+    title: "ФЕРАМИЛ - Торговое название препарата",
     description:
       "Комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей.",
-    images: ["/vasorin.webp"],
+    images: ["/feramil.webp"],
   },
   other: {
     "telegram:channel": "@SpringPharmaceutic",
