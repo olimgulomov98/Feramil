@@ -2,24 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
-        <loc>https://levostan.uz/</loc>
-        <lastmod>2026-02-12</lastmod>
+        <loc>https://feramil.uz/</loc>
+        <lastmod>2026-06-10</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.00</priority>
         <image:image>
-            <image:loc>https://levostan.uz/levostan.webp</image:loc>
-            <image:title>МЕДИРЕН® таблетки — растительный урологический препарат</image:title>
-            <image:caption>МЕДИРЕН® таблетки №60 — комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей</image:caption>
+            <image:loc>https://feramil.uz/feramil.webp</image:loc>
+            <image:title>Ферамил капсулы — комплекс железа и витаминов для женщин</image:title>
+            <image:caption>Ферамил капсулы 3×10 — комбинированный препарат Milagro для устранения железодефицитных состояний у женщин</image:caption>
         </image:image>
         <image:image>
-            <image:loc>https://levostan.uz/levostan-logo.svg</image:loc>
-            <image:title>МЕДИРЕН логотип</image:title>
-            <image:caption>Логотип препарата МЕДИРЕН от Spring Pharmaceutic</image:caption>
+            <image:loc>https://feramil.uz/feramil-logo.svg</image:loc>
+            <image:title>Ферамил логотип</image:title>
+            <image:caption>Логотип препарата Ферамил от компании Milagro</image:caption>
         </image:image>
     </url>
     <url>
-        <loc>https://levostan.uz/instruction_ru.docx</loc>
-        <lastmod>2026-02-12</lastmod>
+        <loc>https://feramil.uz/instruction_ru.docx</loc>
+        <lastmod>2026-06-10</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.60</priority>
     </url>

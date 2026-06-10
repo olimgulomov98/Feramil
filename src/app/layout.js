@@ -5,25 +5,26 @@ const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
 export const metadata = {
   metadataBase: new URL("https://feramil.uz"),
-  title: "ФЕРАМИЛ - Торговое название препарата",
+  title: "ФЕРАМИЛ — капсулы с железом и витаминами для женщин | Milagro",
   description:
-    "ФЕРАМИЛ — комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное действие. Производитель: Spring Pharmaceutic.",
+    "ФЕРАМИЛ — комбинированный препарат Milagro для восполнения дефицита железа и витаминов у женщин. Капсулы 3×10. Эффективно при железодефицитной анемии, усталости и слабости.",
   keywords: [
-    "feramil",
-    "feramil таблетки",
-    "урологический препарат",
-    "лечение почек",
-    "мочевыводящие пути",
-    "цистит лечение",
-    "пиелонефрит",
-    "растительный препарат",
-    "Spring Pharmaceutic",
-    "фитопрепарат",
-    "мочекаменная болезнь",
-    "feramil",
-    "buyrak dorisi",
-    "siydik yo'llari",
-    "o'simlik preparati",
+    "Ферамил",
+    "Ферамил капсулы",
+    "железо для женщин",
+    "витамины при анемии",
+    "железодефицитная анемия",
+    "препарат железа",
+    "Milagro",
+    "дефицит железа",
+    "усталость слабость лечение",
+    "капсулы с железом",
+    "женское здоровье",
+    "feramil capsules",
+    "temir kapsulalar",
+    "ayollar uchun temir",
+    "kamqonlik davolash",
+    "Milagro preparati",
   ],
   robots: {
     index: true,
@@ -45,9 +46,9 @@ export const metadata = {
   openGraph: {
     type: "website",
     url: "https://feramil.uz",
-    title: "ФЕРАМИЛ - Торговое название препарата",
+    title: "ФЕРАМИЛ — капсулы с железом и витаминами для женщин | Milagro",
     description:
-      "Комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное действие.",
+      "Комбинированный препарат Milagro для восполнения дефицита железа и витаминов у женщин. Капсулы 3×10. Эффективно при железодефицитной анемии, усталости и слабости.",
     siteName: "ФЕРАМИЛ",
     images: [
       {
@@ -67,15 +68,15 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ФЕРАМИЛ - Торговое название препарата",
+    title: "ФЕРАМИЛ — капсулы с железом и витаминами для женщин | Milagro",
     description:
-      "Комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей.",
+      "Комбинированный препарат Milagro для восполнения дефицита железа и витаминов у женщин. Капсулы 3×10.",
     images: ["/feramil.webp"],
   },
   other: {
-    "telegram:channel": "@SpringPharmaceutic",
-    "instagram:account": "@springpharmaceutic",
-    "article:publisher": "https://www.facebook.com/spring.pharm.3/",
+    "telegram:channel": "@Milagro",
+    "instagram:account": "@milagro_uz",
+    "article:publisher": "https://www.facebook.com/milagro.uz/",
   },
 };
 

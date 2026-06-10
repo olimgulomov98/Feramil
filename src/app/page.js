@@ -3,15 +3,15 @@ const jsonLd = {
   "@type": "Product",
   name: "ФЕРАМИЛ",
   description:
-    "Комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное, противомикробное действие.",
+    "ФЕРАМИЛ — комбинированный препарат Milagro для восполнения дефицита железа и витаминов у женщин. Капсулы 3×10. Эффективно при железодефицитной анемии, усталости и слабости.",
   image: "https://feramil.uz/feramil.webp",
-  // brand: {
-  //   "@type": "Brand",
-  //   name: "Spring Pharmaceutic",
-  // },
+  brand: {
+    "@type": "Brand",
+    name: "Компании Milagro",
+  },
   manufacturer: {
     "@type": "Organization",
-    // name: 'ООО "SPRING PHARMACEUTIC"',
+    name: 'ООО "Компании Milagro"',
     // address: {
     //   "@type": "PostalAddress",
     //   addressCountry: "UZ",
@@ -27,7 +27,7 @@ const jsonLd = {
     //   "https://t.me/SpringPharmaceutic",
     // ],
   },
-  category: "Фитопрепараты, урология",
+  category: "Витамины и минералы, женское здоровье",
   url: "https://feramil.uz",
 };
 
