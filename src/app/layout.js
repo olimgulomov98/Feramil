@@ -38,7 +38,7 @@ export const metadata = {
     },
   },
   verification: {
-    google: "EeNrX_Vhd4bMEJnslGv6D89shImpFKT1eTXHeeqUF8I",
+    google: "BlIdO3bCCKcKwTgzk3dSONGkfwNStgVcZHHcwzpfEFo",
   },
   alternates: {
     canonical: "https://feramil.uz",
