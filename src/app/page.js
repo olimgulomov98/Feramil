@@ -5,27 +5,27 @@ const jsonLd = {
   description:
     "Комбинированный растительный препарат для лечения заболеваний почек и мочевыводящих путей. Мочегонное, спазмолитическое, противовоспалительное, противомикробное действие.",
   image: "https://feramil.uz/feramil.webp",
-  brand: {
-    "@type": "Brand",
-    name: "Spring Pharmaceutic",
-  },
+  // brand: {
+  //   "@type": "Brand",
+  //   name: "Spring Pharmaceutic",
+  // },
   manufacturer: {
     "@type": "Organization",
-    name: 'ООО "SPRING PHARMACEUTIC"',
-    address: {
-      "@type": "PostalAddress",
-      addressCountry: "UZ",
-      addressRegion: "Наманганская область",
-      addressLocality: "Касансайский район",
-      streetAddress: "Кукимбой, Навбахор МСГ, улица Булак, дом 129",
-    },
-    telephone: "+998996942363",
-    email: "spring_pharmaceutic@gmail.com",
-    sameAs: [
-      "https://www.instagram.com/springpharmaceutic/",
-      "https://www.facebook.com/spring.pharm.3/",
-      "https://t.me/SpringPharmaceutic",
-    ],
+    // name: 'ООО "SPRING PHARMACEUTIC"',
+    // address: {
+    //   "@type": "PostalAddress",
+    //   addressCountry: "UZ",
+    //   addressRegion: "Наманганская область",
+    //   addressLocality: "Касансайский район",
+    //   streetAddress: "Кукимбой, Навбахор МСГ, улица Булак, дом 129",
+    // },
+    // telephone: "+998996942363",
+    // email: "spring_pharmaceutic@gmail.com",
+    // sameAs: [
+    //   "https://www.instagram.com/springpharmaceutic/",
+    //   "https://www.facebook.com/spring.pharm.3/",
+    //   "https://t.me/SpringPharmaceutic",
+    // ],
   },
   category: "Фитопрепараты, урология",
   url: "https://feramil.uz",
@@ -58,9 +58,9 @@ export default function Home() {
               loading={"lazy"}
             />
           </a>
-          <h3 className="text-[11px] md:text-[18px] md:block font-medium">
+          {/* <h3 className="text-[11px] md:text-[18px] md:block font-medium">
             Tel: +998 99 694 23 63
-          </h3>
+          </h3> */}
         </div>
         <div className="mt-[50px]">
           <h2 className="font-semibold text-center text-4xl font-roboto">
@@ -417,11 +417,11 @@ export default function Home() {
                   <strong className="font-medium">
                     <span className="text-[#0C54A0]">Производитель</span>
                   </strong>
-                  <p className="mt-2 font-medium">«Miller Pharm», Индия.</p>
+                  <p className="mt-2 font-medium">Индия.</p>
                 </div>
               </div>
 
-              <div className="mb-4">
+              {/* <div className="mb-4">
                 <strong className="font-medium">
                   <span className="text-[#0C54A0]">
                     Местонахождение производителя и адрес места осуществления
@@ -434,9 +434,9 @@ export default function Home() {
                   <br />
                   Тел.: +998996942363
                 </p>
-              </div>
+              </div> */}
 
-              <a
+              {/* <a
                 href="https://www.instagram.com/springpharmaceutic/"
                 className="flex gap-3 items-center"
               >
@@ -447,8 +447,8 @@ export default function Home() {
                   alt="instagram"
                 />
                 @springpharmaceutic
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://www.facebook.com/spring.pharm.3/"
                 className="flex gap-3 items-center"
               >
@@ -459,8 +459,8 @@ export default function Home() {
                   alt="instagram"
                 />
                 Spring Pharm
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://t.me/SpringPharmaceutic"
                 className="flex gap-3 items-center"
               >
@@ -473,8 +473,8 @@ export default function Home() {
                   alt="instagram"
                 />
                 Spring_Pharmaceutic
-              </a>
-              <a href="#" className="flex gap-3 items-center mb-3">
+              </a> */}
+              {/* <a href="#" className="flex gap-3 items-center mb-3">
                 <img
                   src="/email-svgrepo-com.svg"
                   loading={"lazy"}
@@ -482,7 +482,7 @@ export default function Home() {
                   alt="instagram"
                 />
                 spring_pharmaceutic@gmail.com
-              </a>
+              </a> */}
               <div className="mb-5 flex gap-3 flex flex-wrap">
                 <a
                   href="/instruction_ru.docx"
