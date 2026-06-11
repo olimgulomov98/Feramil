@@ -5,9 +5,9 @@ const inter = Inter({ subsets: ["latin", "cyrillic"] });
 
 export const metadata = {
   metadataBase: new URL("https://feramil.uz"),
-  title: "ФЕРАМИЛ — капсулы с железом и витаминами для женщин | Milagro",
+  title: "ФЕРАМИЛ — железо и витамины при анемии | капсулы 3×10",
   description:
-    "ФЕРАМИЛ — комбинированный препарат Milagro для восполнения дефицита железа и витаминов у женщин. Капсулы 3×10. Эффективно при железодефицитной анемии, усталости и слабости.",
+    "ФЕРАМИЛ — комбинированный препарат для лечения и профилактики железодефицитной анемии. Содержит железа сульфат, фолиевую кислоту, витамины B1, B2, B6, C и цинк. Применяется у взрослых и детей старше 12 лет, при беременности и лактации.",
   keywords: [
     "Ферамил",
     "Ферамил капсулы",
@@ -15,7 +15,6 @@ export const metadata = {
     "витамины при анемии",
     "железодефицитная анемия",
     "препарат железа",
-    "Milagro",
     "дефицит железа",
     "усталость слабость лечение",
     "капсулы с железом",
@@ -24,7 +23,12 @@ export const metadata = {
     "temir kapsulalar",
     "ayollar uchun temir",
     "kamqonlik davolash",
-    "Milagro preparati",
+    "беременность анемия",
+    "фолиевая кислота",
+    "цинк витамины",
+    "гиперменорея лечение",
+    "homiladorlik davrida temir",
+    "foliy kislota",
   ],
   robots: {
     index: true,
@@ -46,9 +50,9 @@ export const metadata = {
   openGraph: {
     type: "website",
     url: "https://feramil.uz",
-    title: "ФЕРАМИЛ — капсулы с железом и витаминами для женщин | Milagro",
+    title: "ФЕРАМИЛ — железо и витамины при анемии | капсулы 3×10",
     description:
-      "Комбинированный препарат Milagro для восполнения дефицита железа и витаминов у женщин. Капсулы 3×10. Эффективно при железодефицитной анемии, усталости и слабости.",
+      "Препарат для лечения железодефицитной анемии. Содержит железо, фолиевую кислоту, витамины группы B, витамин C и цинк. Капсулы 3×10.",
     siteName: "ФЕРАМИЛ",
     images: [
       {
@@ -68,16 +72,16 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ФЕРАМИЛ — капсулы с железом и витаминами для женщин | Milagro",
+    title: "ФЕРАМИЛ — железо и витамины при анемии | капсулы 3×10",
     description:
-      "Комбинированный препарат Milagro для восполнения дефицита железа и витаминов у женщин. Капсулы 3×10.",
+      "Препарат для лечения железодефицитной анемии. Содержит железо, фолиевую кислоту, витамины группы B, витамин C и цинк. Капсулы 3×10.",
     images: ["/feramil.webp"],
   },
-  other: {
-    "telegram:channel": "@Milagro",
-    "instagram:account": "@milagro_uz",
-    "article:publisher": "https://www.facebook.com/milagro.uz/",
-  },
+  // other: {
+  //   "telegram:channel": "@Milagro",
+  //   "instagram:account": "@milagro_uz",
+  //   "article:publisher": "https://www.facebook.com/milagro.uz/",
+  // },
 };
 
 export default function RootLayout({ children }) {

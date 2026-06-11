@@ -3,31 +3,18 @@ const jsonLd = {
   "@type": "Product",
   name: "ФЕРАМИЛ",
   description:
-    "ФЕРАМИЛ — комбинированный препарат Milagro для восполнения дефицита железа и витаминов у женщин. Капсулы 3×10. Эффективно при железодефицитной анемии, усталости и слабости.",
+    "ФЕРАМИЛ — комбинированный препарат для лечения и профилактики железодефицитной анемии. Содержит железа сульфат, фолиевую кислоту, витамины B1, B2, B6, C и цинк. Капсулы 3×10.",
   image: "https://feramil.uz/feramil.webp",
   brand: {
     "@type": "Brand",
-    name: "Компании Milagro",
+    name: "Miller Pharm",
   },
   manufacturer: {
     "@type": "Organization",
-    name: 'ООО "Компании Milagro"',
-    // address: {
-    //   "@type": "PostalAddress",
-    //   addressCountry: "UZ",
-    //   addressRegion: "Наманганская область",
-    //   addressLocality: "Касансайский район",
-    //   streetAddress: "Кукимбой, Навбахор МСГ, улица Булак, дом 129",
-    // },
-    // telephone: "+998996942363",
-    // email: "spring_pharmaceutic@gmail.com",
-    // sameAs: [
-    //   "https://www.instagram.com/springpharmaceutic/",
-    //   "https://www.facebook.com/spring.pharm.3/",
-    //   "https://t.me/SpringPharmaceutic",
-    // ],
+    name: "Miller Pharm",
+    addressCountry: "IN",
   },
-  category: "Витамины и минералы, женское здоровье",
+  category: "Препараты железа, витамины, лечение анемии",
   url: "https://feramil.uz",
 };
 
