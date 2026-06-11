@@ -16,6 +16,11 @@ const jsonLd = {
   },
   category: "Препараты железа, витамины, лечение анемии",
   url: "https://feramil.uz",
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: "5",
+    reviewCount: "1",
+  },
 };
 
 export default function Home() {
